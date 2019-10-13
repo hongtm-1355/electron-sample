@@ -1,0 +1,48 @@
+{
+  "name": "sp-opy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:win": "electron-builder --win --x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.6.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "electron": "^6.0.11"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bootstrap": "^4.3.1",
+    "clipboardy": "^2.1.0",
+    "electron-store": "^5.0.0",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-editable-table": "^1.12.32",
+    "react-icons": "^3.7.0",
+    "react-x-editable": "0.0.10-beta",
+    "styled-components": "^4.4.0"
+  },
+  "build": {
+    "productName": "CCTOOL",
+    "appId": "1111",
+    "win": {
+      "target": "nsis",
+      "icon": "img/icon.ico"
+    }
+  }
+}
